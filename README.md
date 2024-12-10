@@ -1,4 +1,4 @@
-# Flapi - CertManager Cluster K3s
+# Flapi - Cluster K3s - Cert Manager
 
 ## ⚙ Setup Environment
 1. Connect to the NODE MASTER in Cluster K3S.
