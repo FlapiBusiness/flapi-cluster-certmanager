@@ -3,8 +3,9 @@
 ## ⚙ Setup Environment
 1. Connect to the NODE MASTER in Cluster K3S.
 2. Install HELM : https://helm.sh/docs/intro/install/
-3. Use repo CERT-MANAGER HELM : https://artifacthub.io/packages/helm/cert-manager/cert-manager
-4. Run command :
+3. Use repo CERT-MANAGER HELM : https://artifacthub.io/packages/helm/cert-manager/cert-manager7
+4. Récupérer les fichiers manifest dans : k8s/, puis les déposer sur le serveur.
+5. Run command :
 ```bash
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 sudo helm repo add jetstack https://charts.jetstack.io
