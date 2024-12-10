@@ -19,7 +19,8 @@ sudo kubectl apply -f cluster-issuer.yaml
 
 ## 🚀 Update chart CertManager HELM for values.yaml
 1. Connect to the NODE MASTER in Cluster K3S.
-2. Run command :
+2. Récupérer les fichiers manifest dans : k8s/, puis les déposer sur le serveur.
+3. Run command :
 ```bash
 sudo chmod 644 /etc/rancher/k3s/k3s.yaml
 sudo KUBECONFIG=/etc/rancher/k3s/k3s.yaml helm upgrade cert-manager jetstack/cert-manager --namespace cert-manager --values values.yaml
