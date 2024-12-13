@@ -2,7 +2,7 @@ replicaCount: 2
 
 affinity:
   podAntiAffinity:
-    requiredDuringSchedulingIgnoredDuringExecution:
+    preferredDuringSchedulingIgnoredDuringExecution:
     - labelSelector:
         matchExpressions:
         - key: "app.kubernetes.io/name"
